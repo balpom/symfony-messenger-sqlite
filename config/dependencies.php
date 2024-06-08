@@ -22,6 +22,7 @@ return [
         return new FilesystemAdapter('test_namespace', 10, __DIR__ . '/../var/cache');
     },
     'sqlite-dsn' => 'sqlite:' . __DIR__ . '/../data/alternative-queue.sqlite',
+    //'sqlite-dsn' => 'sqlite:/tmp/data/alternative-queue.sqlite',
     PDO::class => function (ContainerInterface $container) {
         $dsn = $container->get('sqlite-dsn');
         return SqlitePDO::create($dsn);
