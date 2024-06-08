@@ -1,0 +1,27 @@
+{
+    "name": "balpom/symfony-messenger-sqlite",
+    "description": "How to initialize and to use a Symfony Messenger with queues in SQLite database without Doctrine.",
+    "type": "library",
+    "homepage": "https://www.balpom.ru",
+    "license": "MIT",
+    "keywords": ["symfony", "messenger", "console", "worker", "queue", "use", "usage", "example", "sample", "pdo", "sql", "sqlite", "transport"],
+    "autoload": {
+        "psr-4": {
+            "Balpom\\SymfonyMessengerSqlite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail (Balpom)"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "php-di/php-di": ">=7.0",
+        "symfony/messenger": ">=6.4",
+        "balpom/sql-messenger": ">=1.0.0",
+        "symfony/cache": ">=6.4",
+        "symfony/console": ">=6.4",
+        "symfony/event-dispatcher": ">=6.4"
+    }
+}
