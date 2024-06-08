@@ -1,7 +1,7 @@
 # symfony-messenger-sqlite
 ## A simple example showing how to initialize and to use a Symfony Messenger with queues in SQLite database without Doctrine.
 
-It is modified example from (https://github.com/balpom/symfony-messenger-sample), which use Doctrine  ((https://github.com/symfony/doctrine-messenger)) as message transport.
+It is modified example from https://github.com/balpom/symfony-messenger-sample, which use Doctrine  ((https://github.com/symfony/doctrine-messenger)) as message transport.
 This example use https://github.com/balpom/sql-messenger as transport. It use SQLite database by PDO and without Doctrine.
 Everything was tested in Linux.
 
