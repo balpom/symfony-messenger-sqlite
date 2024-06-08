@@ -41,7 +41,7 @@ It stop Worker execution.
 ### Advanced test
 Open multiple consoles. In each of them, run the command:
 ```bash
-php bin/console messenger:consume doctrine-async
+php bin/console messenger:consume sql-async
 ```
 It starts many simple Workers, which imitate SMS sending. Now it is waiting for messages to be sent from the queue, which is still empty.
 
